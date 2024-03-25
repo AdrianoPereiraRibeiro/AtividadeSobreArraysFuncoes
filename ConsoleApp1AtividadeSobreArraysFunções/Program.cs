@@ -38,6 +38,9 @@
         {
             
             Console.WriteLine("\nO número removido foi o 11,agora a sequência é: ");
+          //Desculpa Rech, não consegui fazer escolher o número.:(
+            
+           
             for (int i = 1; i < numeros.Length; i++)
             {
                 Console.Write(numeros[i] + " ");
