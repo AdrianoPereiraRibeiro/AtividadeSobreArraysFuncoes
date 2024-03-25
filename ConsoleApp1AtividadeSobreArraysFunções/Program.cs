@@ -34,8 +34,9 @@
             Console.ReadLine();
         }
 
-        private static void RemoverOOnze(int[] numeros)
+         static void RemoverOOnze(int[] numeros)
         {
+            
             Console.WriteLine("\nO número removido foi o 11,agora a sequência é: ");
             for (int i = 1; i < numeros.Length; i++)
             {
