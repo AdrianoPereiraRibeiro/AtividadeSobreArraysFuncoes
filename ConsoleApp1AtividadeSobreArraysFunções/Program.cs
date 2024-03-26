@@ -37,11 +37,11 @@
          static void RemoverOOnze(int[] numeros)
         {
             
-            Console.WriteLine("\nO número removido foi o 11,agora a sequência é: ");
-          //Desculpa Rech, não consegui fazer escolher o número.:(
-            // Eu tentei mas nao deu, só consegui zerar o valor mas nao tirar do array
+            Console.WriteLine("\n Digite o número para ser removido da sequencia: ");
+            int remover = Convert.ToInt32(Console.ReadLine());
+            numeros= numeros.Where(x => x != remover).ToArray();
            
-            for (int i = 1; i < numeros.Length; i++)
+            for (int i = 0; i < numeros.Length; i++)
             {
                 Console.Write(numeros[i] + " ");
             }
